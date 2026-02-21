@@ -8,3 +8,5 @@ test('verify login page', async ({page}) => {
     await page.pause()
 }
 );
+
+test()

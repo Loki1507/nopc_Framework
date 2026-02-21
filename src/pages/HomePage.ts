@@ -1,0 +1,10 @@
+import { Page } from '@playwright/test';
+import { BasePage } from './base/BasePage';
+
+export class HomePage extends BasePage {
+  constructor(page: Page) {
+    super(page);
+  }
+
+  // Add home page specific methods here
+}
